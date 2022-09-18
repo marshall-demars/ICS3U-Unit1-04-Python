@@ -10,7 +10,7 @@ def main():
     print("If a rectangle has the dimensions:")
     print("5cm and 3cm")
     print("\nArea is {}cm².".format(3 * 5))
-    print("Perimeter is {}cm.".format(3 + 5(*2)))
+    print("Perimeter is {}cm.".format((3 + 5) * 2))
 
     print("\nDone.")
 
